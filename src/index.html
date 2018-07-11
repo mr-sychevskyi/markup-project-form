@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Genesis Test</title>
+
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900" rel="stylesheet">
+    <link href="dist/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="card">
+        <div class="card__hero hero hero_bg_start">
+            <img class="hero__logo img-responsive" src="images/depositphotos-smile.png" alt="woman-smile">
+
+            <i class="hero__icon-heart icon-heart hero_color_start" aria-hidden="true">&#x2764;</i>
+
+            <div class="hero__overlay overlay hidden">
+                <div class="overlay__option-a overlay-info hidden">
+                    <h3 class="overlay-info__title">47,6%</h3>
+                    <p class="overlay-info__description">Пользователей - вариант А</p>
+                </div>
+                <div class="overlay__option-b overlay-info hidden">
+                    <h3 class="overlay-info__title">52,4%</h3>
+                    <p class="overlay-info__description">Пользователей - вариант Б</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card__content content content_bg_start">
+            <h2 class="content__title hero_color_start">Lorem Ipsum</h2>
+            <h3 class="content__subtitle">Mauris vel nisi ac orci placerat semper. Aenean sapien massa.</h3>
+
+            <div class="interaction interaction-start">
+                <h3 class="interaction-start__title">Lorem Ipsum?</h3>
+                <a class="interaction-start__btn btn btn-start">Начать</a>
+            </div>
+
+            <div class="interaction interaction-options hidden">
+                <div class="options-group">
+                    <input class="input-radio" id="radio-1" type="radio" name="options">
+                    <label class="options-group__btn btn btn-option-a" for="radio-1">
+                        <i class="icon-btn" aria-hidden="true">
+                            <img src="./images/icon-man.png" alt="icon-man">
+                        </i>
+                        <span class="icon-text">Вариант А</span>
+                    </label>
+
+                    <input class="input-radio" id="radio-2" type="radio" name="options">
+                    <label class="options-group__btn btn btn-option-b" for="radio-2">
+                        <i class="icon-btn" aria-hidden="true">
+                            <img src="./images/icon-woman.png" alt="icon-woman">
+                        </i>
+                        <span class="icon-text">Вариант Б</span>
+                    </label>
+                </div>
+
+                <a class="interaction-options__btn btn btn-continue hidden">Продолжить</a>
+            </div>
+
+            <div class="interaction interaction-registration-form hidden">
+                <form class="registration-form" action="/">
+                    <h3 class="form-group__title">Я ищу:</h3>
+                    <div class="options-group">
+                        <input class="input-radio" id="radio-3" type="radio" name="reg-form">
+                        <label class="options-group__btn btn" for="radio-3">
+                            <i class="icon-btn" aria-hidden="true">
+                                <img src="./images/icon-man.png" alt="icon-man">
+                            </i>
+                            <span class="icon-text">Вариант 1</span>
+                        </label>
+
+                        <input class="input-radio" id="radio-4" type="radio" name="reg-form">
+                        <label class="options-group__btn btn" for="radio-4">
+                            <i class="icon-btn" aria-hidden="true">
+                                <img src="./images/icon-woman.png" alt="icon-woman">
+                            </i>
+                            <span class="icon-text">Вариант 2</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-group__title" for="name">
+                            Ваше имя:
+                            <span class="validation-help-name hidden"></span>
+                        </label>
+                        <input class="form-group__control" id="name" type="text" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group__title" for="email">
+                            Email:
+                            <span class="validation-help-email hidden"></span>
+                        </label>
+                        <input class="form-group__control" id="email" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-group__title" for="password">
+                            Придумайте пароль:
+                            <span class="validation-help-password hidden"></span>
+                        </label>
+                        <input class="form-group__control" id="password" type="password" name="password">
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="confirmation" name="confirmation"/>
+                        <label class="form-group__title" for="confirmation">Регистрируясь, вы подтверждаете, что вам уже
+                            исполнилось 18 лет и вы
+                            ознакомились с условиями пользования сайтом.
+                        </label>
+                    </div>
+
+                    <input class="registration-form__btn btn btn-submit" type="submit" value="Продолжить">
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/animation.min.js"></script>
+    <script src="js/validation.min.js"></script>
+    <!-- END__SCRIPTS -->
+</body>
+</html>		

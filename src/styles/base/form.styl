@@ -1,0 +1,59 @@
+.registration-form
+  .options-group
+    justify-content space-between
+    margin-top 8px
+
+    &__btn:hover
+    .input-radio:checked + .options-group__btn
+      color #fff
+      background-color #1da7c0
+
+    .icon-text
+      margin-left 5px
+      white-space nowrap
+      letter-spacing 0.07px
+
+  &__btn
+    margin-top 10px
+
+.form-group
+  display flex
+  flex-direction column
+  margin-top 10px
+
+  &__title
+    color #3b3b3b
+    font-size 11px
+    font-weight 700
+
+  &__control
+    margin-top 5px
+    padding 10px 15px
+    width 100%
+    height 50px
+
+    font-size .7rem
+    border-radius 10px
+    border 1px solid #d3d3d3
+    background-color #fff
+
+.checkbox-group
+  flex-direction row
+
+  &__title
+    color #000
+    font-size 8px
+    font-weight 300
+    opacity .8
+
+.error::-webkit-input-placeholder
+  color rgb(255, 0, 0)
+
+.error::-moz-placeholder
+  color rgb(255, 0, 0)
+
+.error:-ms-input-placeholder
+  color rgb(255, 0, 0)
+
+.error::placeholder
+  color rgb(255, 0, 0)
