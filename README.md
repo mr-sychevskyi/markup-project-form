@@ -1,3 +1,3 @@
-## Genesis Test(Mobile version)
+## App(Mobile version)
 
 # Demo: [Github Pages](https://mr-sychevskyi.github.io/test-mobile/src/index.html)
