@@ -1,4 +1,4 @@
-# Landing(mobile version) App
+# Landing Page(mobile version)
 
 **Demo:** [Github Pages](https://mr-sychevskyi.github.io/test-mobile/src/index.html)
 
